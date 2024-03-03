@@ -23,3 +23,5 @@ jobs:
       run: dotnet build --configuration Release
     - name: Run tests
       run: dotnet test
+    - name: Run Microsoft Security DevOps
+      uses: microsoft/security-devops-action@v1
